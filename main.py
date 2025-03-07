@@ -28,6 +28,7 @@ def verificar_estructura_sprites():
     """Verifica si la estructura de directorios para sprites existe, si no, la crea"""
     if not os.path.exists("sprites"):
         print("Directorio 'sprites' no encontrado. Ejecutando preparar_animaciones.py...")
+        print("prueba tony mll")
         try:
             import preparar_animaciones
             preparar_animaciones.main()
